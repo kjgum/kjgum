@@ -83,7 +83,7 @@ a {
 .intro-social-buttons {
     opacity: .7;
 }
-
+/*
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -106,7 +106,7 @@ a {
     .intro-divider {
         width: 100%;
     }
-}
+}*/
 
 .webPic {
     width: 100%;
