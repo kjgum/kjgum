@@ -28,9 +28,7 @@ h6,
     font-family: 'Josefin Slab', serif;
 }
 
-.toCome {
-    padding-top: 20px;
-}
+
 
 .mePic {
     height:250px;
@@ -192,8 +190,8 @@ a {
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
+        float: right;
+        margin-top: 10px;
     }
 }
 
@@ -204,8 +202,14 @@ a {
         font-size: 3em;
     }
 
+    .mePic {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
     ul.banner-social-buttons > li {
-        display: block;
+        /*display: block;*/
         margin-bottom: 20px;
         padding: 0;
     }
