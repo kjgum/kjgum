@@ -7,17 +7,25 @@ html {
 
 }
 
+p { 
+   text-indent: 10px;
+}
+
 body,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-    /*font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+h6,
+ {
     font-family: 'Josefin Slab', serif;
     font-weight: 700;
 
+}
+
+.row {
+    font-family: 'Josefin Slab', serif;
 }
 
 .toCome {
@@ -34,7 +42,6 @@ h6 {
 
 .navbar-brand {
     font-size: 20px;
-    font-family: 'Poiret One', cursive;
 }
 
 .lead {
@@ -55,6 +62,7 @@ h6 {
 	background-color: white;
 	opacity: .5;
 	font-weight: bold;
+    font-family: 'Josefin Slab', serif;
 }
 
 a {
@@ -70,11 +78,11 @@ a {
 .intro-message > h1 {
     margin: 0;
     text-shadow: 1px 1px 1px black;
-    font-size: 5em;
+    font-size: 6em;
     color: white;
     font-weight: bold;
-    font-family: 'Bevan', cursive;
     opacity: .8;
+    font-family: 'Cedarville Cursive', cursive;
 }
 
 .intro-divider {
@@ -89,7 +97,7 @@ a {
 }
 
 .intro-social-buttons {
-    opacity: .7;
+    opacity: .8;
 }
 
 @media(max-width:767px) {
@@ -127,7 +135,7 @@ a {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Josefin Slab', serif;
 }
 
 .content-section-a {
@@ -156,10 +164,11 @@ a {
     color: #f8f8f8;
     background: url(../img/sfbanner.jpg) no-repeat center center;
     background-size: cover;
+    height: 300px;
 }
 
 .mePic {
-    height: 200px;
+    height: 300px;
     padding-left: 20%;
     margin: 0;
 }
@@ -177,8 +186,8 @@ a {
 .banner-social-buttons {
     float: right;
     margin-top: 0;
-    font-family: 'Poiret One', cursive;
-    opacity: .7;
+    font-family: 'Josefin Slab', serif;
+    opacity: .8;
 }
 
 @media(max-width:1199px) {
