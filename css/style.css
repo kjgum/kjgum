@@ -52,7 +52,7 @@ h6,
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/sfheader.jpg) no-repeat center center;
+    background: url(../img/sfsutro.jpg) no-repeat center center;
     background-size: cover; 
 }
 
@@ -164,7 +164,7 @@ a {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/sfbanner.jpg) no-repeat center center;
+    background: url(../img/grass.jpg) no-repeat center center;
     background-size: cover;
     height: 300px;
 }
@@ -207,11 +207,12 @@ a {
     }
 
     .mePic {
-        width: 200px;
-        height: 200px;
-        margin: 0;
-        margin-bottom: 10px;
-        padding: 0;
+        width: 90%;
+        height: 90%;
+        /*height: 200px;*/
+        margin: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
     }
 
     ul.banner-social-buttons > li {
