@@ -235,3 +235,99 @@ span.copyright {
     margin: 15px 0 0;
     font-family: 'Cedarville Cursive', cursive;
 }
+
+
+
+
+
+.portPic {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  color: black;
+  text-align: right;
+  font-size: 16px;
+  font-family: 'Josefin Slab', serif;
+}
+
+.portPicA {
+    background-color: white;
+}
+
+.portPic * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.portPic img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.portPic figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 20px;
+  
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.portPic h2,
+.portPic h3,
+.portPic p {
+  margin: 0;
+}
+
+/*.portPic h2,
+.portPic h3 {
+  line-height: 1.2em;
+}*/
+
+
+.portPic h3 {
+  color: black;
+  font-size: 1.3em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.portPic p {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.9em;
+  margin-top: 0px;
+  padding: 12px 0 15px;
+  line-height: 1.5em;
+  color: grey;
+}
+
+.portPic a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.portPic:hover > img,
+.portPic.hover > img {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.portPic:hover figcaption,
+.portPic.hover figcaption {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
