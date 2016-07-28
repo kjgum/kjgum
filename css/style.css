@@ -10,7 +10,7 @@ html {
 p { 
    text-indent: 10px;
 }
-
+ 
 body,
 h1,
 h2,
@@ -123,6 +123,10 @@ a {
 
     .intro-divider {
         width: 100%;
+    }
+
+    .portPic {
+      padding: 5px;
     }
 }
 
