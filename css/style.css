@@ -1,16 +1,13 @@
-
-
 body,
 html {
     width: 100%;
     height: 100%;
-
 }
 
-p { 
-   text-indent: 10px;
+p {
+    text-indent: 10px;
 }
- 
+
 body,
 h1,
 h2,
@@ -18,25 +15,23 @@ h3,
 h4,
 h5,
 h6,
- {
+{
     font-family: 'Josefin Slab', serif;
     font-weight: 700;
-
 }
 
 .row {
     font-family: 'Josefin Slab', serif;
 }
 
-
-
 .mePic {
-    height:250px;
+    height: 250px;
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
+
 
 /*.navbar-brand {
     font-size: 20px;
@@ -48,18 +43,18 @@ h6,
 }
 
 .intro-header {
-    padding-top: 50px;  
+    padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/sfsutro.jpg) no-repeat center center;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .navbar {
-	background-color: white;
-	opacity: .5;
-	font-weight: bold;
+    background-color: white;
+    opacity: .5;
+    font-weight: bold;
     font-family: 'Josefin Slab', serif;
 }
 
@@ -86,12 +81,12 @@ a {
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     opacity: .7;
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .intro-social-buttons {
@@ -102,31 +97,31 @@ a {
     .intro-message {
         padding-bottom: 15%;
     }
-
     .intro-message > h1 {
         font-size: 3em;
     }
-
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
-
+    .mePic {
+        padding: 0;
+        width: 100%;
+        margin: 1px;
+        margin-bottom: 10px;
+    }
     .navbar {
         display: none;
     }
-
     ul.intro-social-buttons > li:last-child {
         margin-bottom: 0;
     }
-
     .intro-divider {
         width: 100%;
     }
-
     .portPic {
-      padding: 5px;
+        padding: 5px;
     }
 }
 
@@ -181,7 +176,7 @@ a {
 
 .banner h2 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
 }
 
@@ -206,22 +201,14 @@ a {
 @media(max-width:767px) {
     .banner h2 {
         margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
         font-size: 3em;
     }
-
-    .mePic {
-        width: 100%
-        margin: 5px;
-        margin-bottom: 10px;
-    }
-
     ul.banner-social-buttons > li {
         /*display: block;*/
         margin-bottom: 20px;
         padding: 0;
     }
-
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
@@ -237,19 +224,15 @@ span.copyright {
     font-family: 'Cedarville Cursive', cursive;
 }
 
-
-
-
-
 .portPic {
-  position: relative;
-  float: left;
-  overflow: hidden;
-  width: 100%;
-  color: black;
-  text-align: right;
-  font-size: 16px;
-  font-family: 'Josefin Slab', serif;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    color: black;
+    text-align: right;
+    font-size: 16px;
+    font-family: 'Josefin Slab', serif;
 }
 
 .portPicA {
@@ -257,78 +240,76 @@ span.copyright {
 }
 
 .portPic * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.45s ease;
-  transition: all 0.45s ease;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.45s ease;
+    transition: all 0.45s ease;
 }
 
 .portPic img {
-  vertical-align: top;
-  max-width: 100%;
-  backface-visibility: hidden;
+    vertical-align: top;
+    max-width: 100%;
+    backface-visibility: hidden;
 }
 
 .portPic figcaption {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  padding: 20px;
-  
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 20px;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
 }
 
 .portPic h2,
 .portPic h3,
 .portPic p {
-  margin: 0;
+    margin: 0;
 }
+
 
 /*.portPic h2,
 .portPic h3 {
   line-height: 1.2em;
 }*/
 
-
 .portPic h3 {
-  color: black;
-  font-size: 1.3em;
-  font-weight: normal;
-  letter-spacing: 1px;
-  border-bottom: 1px solid #e6e6e6;
+    color: black;
+    font-size: 1.3em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 .portPic p {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 0.9em;
-  margin-top: 0px;
-  padding: 12px 0 15px;
-  line-height: 1.5em;
-  color: grey;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.9em;
+    margin-top: 0px;
+    padding: 12px 0 15px;
+    line-height: 1.5em;
+    color: grey;
 }
 
 .portPic a {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .portPic:hover > img,
 .portPic.hover > img {
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
 }
 
 .portPic:hover figcaption,
 .portPic.hover figcaption {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
 }
-
