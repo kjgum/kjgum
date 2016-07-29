@@ -211,10 +211,10 @@ a {
     }
 
     .mePic {
-        width: 80%
+        width: 100%
         text-align:center;
         /*margin-bottom: 20px;*/
-        margin: 20px;
+        margin: 5px;
     }
 
     ul.banner-social-buttons > li {
