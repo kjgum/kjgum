@@ -7234,7 +7234,7 @@ h6 {
     overflow: hidden;
 }
 
-#board .item .image-popup:hover img {
+.item img:hover {
     /*opacity: .9;*/
     filter: grayscale(50%);
 }
@@ -7678,4 +7678,8 @@ svg {
   to {
     stroke-dashoffset: 250%;
   }
+}
+
+a.menuLinks {
+    style="letter-spacing: 2px;"
 }
