@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="/css/salvattore.css">
     <!-- Theme Style -->
     <link rel="stylesheet" href="/css/style.css">
-    <!-- <style>
+    <style>
     /* Center the loader */
     
     #loader {
@@ -52,9 +52,9 @@
         width: 150px;
         height: 150px;
         margin: -75px 0 0 -75px;
-        border: 16px solid #f3f3f3;
+        border: 16px solid #af9090;
         border-radius: 50%;
-        border-top: 16px solid #3498db;
+        border-top: 16px solid #5F2121;
         width: 120px;
         height: 120px;
         -webkit-animation: spin 2s linear infinite;
@@ -114,13 +114,12 @@
         display: none;
         text-align: center;
     }
-    </style> -->
+    </style>
 </head>
 
 <body onload="myFunction()" style="margin:0;">
-    <!-- <div class="loader"></div> -->
-    <!-- <div> -->
-    <!-- <div style="display:none;" id="myDiv" class="animate-bottom"> -->
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
         <div id="offcanvass">
             <a href="#" class="offcanvass-close js-offcanvass-close"><i class="fa fa-bars" aria-hidden="true"></i></a>
             <span><img src="http://i.imgur.com/9ux4cJx.png" width="100px"></span>
@@ -548,18 +547,18 @@
             </div>
         </div>
     </div>
-     <!-- <script>
-    var myVar;
+<script>
+var myVar;
 
-    function myFunction() {
-        myVar = setTimeout(showPage, 1000);
-    }
+function myFunction() {
+    myVar = setTimeout(showPage, 2000);
+}
 
-    function showPage() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("myDiv").style.display = "block";
-    }
-    </script> -->
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
     <!-- jQuery -->
     <script src="/js/jquery.min.js"></script>
     <!-- jQuery Easing -->
@@ -574,7 +573,6 @@
     <script src="/js/salvattore.min.js"></script>
     <!-- Main JS -->
     <script src="/js/main.js"></script>
-   
 </body>
 
 </html>
