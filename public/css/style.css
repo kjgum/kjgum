@@ -29,7 +29,9 @@ img {
     height: auto;
 }
 
-
+#about {
+    letter-spacing: 2px;
+}
 
 
 ::-webkit-selection {
