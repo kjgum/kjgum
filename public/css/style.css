@@ -224,7 +224,7 @@ img {
     text-transform: uppercase;
     color: #000;
     font-weight: normal;
-    font-family: "Montserrat", arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 #header > .navbar li a > span .border {
@@ -413,8 +413,8 @@ img {
 }
 
 #board .item .item-title {
-    font-family: "Montserrat", arial, sans-serif;
-    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
     line-height: 24px;
     margin: 0;
     padding: 0;
@@ -433,7 +433,7 @@ img {
     overflow: hidden;
 }
 
-.item img:hover {
+#main .item img:hover {
     /*opacity: .9;*/
     filter: grayscale(50%);
 }
@@ -444,7 +444,7 @@ img {
 
 pre {
     background: #e9e9e9;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
 }
 
 
@@ -618,8 +618,8 @@ a:hover, a:focus {
 body {
 
 
-    
-    font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Poiret One', cursive;*/
     color: #260d0d;
     /*font-size: 100%;*/
     font-size: 18px;
@@ -628,7 +628,7 @@ body {
 
 .navbar-brand{
 
-    font-family: 'Arvo', serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 h3.lead {
