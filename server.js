@@ -17,8 +17,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, 'index.html'));
 })
-app.get('/cv', function(req, res) {
-    res.sendFile(path.join(__dirname, 'cv.html'));
+app.get('/fts', function(req, res) {
+    res.sendFile(path.join(__dirname, 'fts.html'));
 })
 // app.get('/resume', function(req, res) {
 //     res.sendFile(path.join(__dirname, ''));
